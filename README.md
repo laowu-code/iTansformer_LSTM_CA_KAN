@@ -18,5 +18,11 @@ The metrics, including MAE, RMSE, $R^2$ , and MBE, are compared between iTransfo
 | Autumn  | LSTM-iTransformer | 0.0986 | 0.2574 | 0.9761 | 0.0258   |
 |         | iTransformer      | 0.1073 | 0.2805 | 0.9716 | 0.0106   |
 |         | LSTM              | 0.1182 | 0.323  | 0.9623 | 0.0373   |
+| Winter  | LSTM-iTransformer | 0.0428 | 0.1717 | 0.9913 | 0.0126   |
+|         | iTransformer      | 0.0468 | 0.1806 | 0.9903 | 0.0032   |
+|         | LSTM              | 0.0473 | 0.1907 | 0.9892 | 0.0115   |
+
+
+
 
 ![metrics_radar](pic_/radar.svg)

@@ -6,9 +6,7 @@ Model Structure is shown as  ![Model Structure](pic_/model_final.svg )
 The PV power data used in this study were sourced from [the Desert Knowledge Australia Solar Centre](https://dkasolarcentre.com.au/), specifically from Site 7 in Alice Springs, Australia (latitude: -23.76, longitude: 133.87).the chosen input variables include active power (AP,kW), historical temperature (T,℃), relative humidity (RH, %), global horizontal irradiance (GHI, $Wh/m^2$), and diffuse horizontal irradiance (DHI, $Wh/m^2$), as shown in ![data distribution](pic_/data_dis.svg)
 # Flowchart
 The flowchart of the proposed model is shown as 
-<div align=center> 
-![Flowchart](pic_/flowchart.svg)
-</div>
+<div align=center> ![Flowchart](pic_/flowchart.svg)</div>
 # Results
 The metrics, including MAE, RMSE, $R^2$ , and MBE, are compared between iTransformer and LSTM, as presented in the table below and visualized in the accompanying radar chart.
 

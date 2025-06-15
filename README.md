@@ -2,7 +2,7 @@
 Replacing the cross-attention mechanism with a gating mechanism（Gated Tanh Unit，GTU） could potentially enhance the model's performance. This adjustment may lead to more effective information flow control and selective feature integration, resulting in improved outcomes.
 
 # :memo: Abstract
-Accurate photovoltaic (PV) power forecasting is critical for integrating renewable energy sources into the grid, optimizing real-time energy management, and ensuring energy reliability amidst increasing demand. However, existing models often struggle with effectively capturing the complex relationships between target variables and covariates, as well as the interactions between temporal dynamics and multivariate data, leading to suboptimal forecasting accuracy. To address these challenges, we propose a novel model architecture that leverages the iTransformer for feature extraction from target variables and employs long short-term memory (LSTM) to extract features from covariates. A cross-attention mechanism is integrated to fuse the outputs of both models, followed by a Kolmogorov–Arnold network (KAN) mapping for enhanced representation. The effectiveness of the proposed model is validated using publicly available datasets from Australia, with experiments conducted across four seasons. Results demonstrate that the proposed model effectively capture seasonal variations in PV power generation and improve forecasting accuracy.
+Accurate photovoltaic (PV) power forecasting is critical for integrating renewable energy sources into the grid, optimizing real-time energy management, and ensuring energy reliability amidst increasing demand. However, existing models often struggle with effectively capturing the complex relationships between target variables and covariates, as well as the interactions between temporal dynamics and multivariate data, leading to suboptimal forecasting accuracy. To address these challenges, we propose a novel model architecture that leverages the iTransformer for feature extraction from target variables and employs long short-term memory (LSTM) to extract features from covariates. A cross-attention mechanism is integrated to fuse the outputs of both models, followed by a Kolmogorov–Arnold network (KAN) mapping for enhanced representation. The effectiveness of the proposed model is validated using publicly available datasets from Australia, with experiments conducted across four seasons. Results demonstrate that the proposed model effectively capture seasonal variations in PV power generation and improve forecasting accuracy.The paper is available at  [ArXiv](https://arxiv.org/abs/2412.02302) or [IEEE](https://ieeexplore.ieee.org/document/10990816).
 # :rocket: Model Structure
 Model Structure is shown as  ![Model Structure](pic_/model_final.svg )
 # :chart_with_upwards_trend: Date Source 
@@ -13,7 +13,7 @@ The flowchart of the proposed model is shown as
 # :white_check_mark: Results 
 The metrics, including MAE, RMSE, $R^2$ , and MBE, are compared between iTransformer and LSTM, as presented in the table below and visualized in the accompanying radar chart.
 
-| Seasons | Models            | MAE    | RMSE   | R2     | MBE      |
+| Seasons | Models            | MAE    | RMSE   | $R^2$     | MBE      |
 |---------|-------------------|--------|--------|--------|----------|
 | Spring  | Proposed          | 0.1335 | 0.3406 | 0.9646 | 0.0006   |
 |         | iTransformer      | 0.1455 | 0.3448 | 0.9637 | 0.0004   |
